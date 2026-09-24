@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "noEmit": true,
+    "lib": ["ES2023", "DOM"],
+    "baseUrl": ".",
+    "paths": { "@core/*": ["src/core/*"], "@server/*": ["src/server/*"] }
+  },
+  "include": ["src", "test", "scripts", "vite.config.ts"]
+}
