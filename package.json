@@ -1,0 +1,33 @@
+{
+  "name": "macho-fat-sig-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal Mach-O slice / load command / code signature coverage review platform",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build:cases": "node --experimental-strip-types scripts/build-cases.ts",
+    "pretest": "node --experimental-strip-types scripts/build-cases.ts",
+    "test": "vitest",
+    "dev": "node --experimental-strip-types scripts/dev-server.ts",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
