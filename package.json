@@ -1,0 +1,29 @@
+{
+  "name": "macho-testimony-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mach-O / universal binary / code signature coverage review with event-sourced testimony",
+  "scripts": {
+    "dev": "tsx src/server/index.ts",
+    "build": "vite build && tsc --noEmit",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "cases:build": "tsx scripts/build-cases.ts",
+    "start": "tsx src/server/index.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
