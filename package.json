@@ -1,0 +1,25 @@
+{
+  "name": "macho-gsb-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal Mach-O slice / load command / code signature coverage review workbench",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "build:casepack": "node scripts/build-casepack.ts",
+    "seed": "node scripts/seed.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
