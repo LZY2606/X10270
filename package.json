@@ -1,0 +1,15 @@
+{
+  "name": "macho-slice-attestation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mach-O / universal binary slice, load command and code signature coverage attestation workbench",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5370 --strictPort",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {}
+}

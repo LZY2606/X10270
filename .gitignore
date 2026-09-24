@@ -34,3 +34,9 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# --- 本地 SQLite 数据库与离线工作数据 ---
+data/
+*.db
+*.db-wal
+*.db-shm
