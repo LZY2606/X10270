@@ -1,0 +1,19 @@
+{
+  "name": "macho-slice-testimony",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Mach-O / universal binary / code signature coverage review workbench",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "casepack:generate": "node scripts/generate-casepack.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
