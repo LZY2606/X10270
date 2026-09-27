@@ -1,0 +1,27 @@
+{
+  "name": "macho-fat-coverage-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal Mach-O / fat binary / code-signature coverage review workbench",
+  "scripts": {
+    "dev": "node server/dev-server.mjs",
+    "build": "vite build",
+    "preview": "node server/dev-server.mjs",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.7"
+  }
+}
