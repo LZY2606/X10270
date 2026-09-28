@@ -1,0 +1,28 @@
+{
+  "name": "macho-fat-signature-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal Mach-O / fat binary / code signature coverage review workbench",
+  "scripts": {
+    "dev": "node dev-server.mjs --host 127.0.0.1 --port 5370 --strictPort",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "test": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
